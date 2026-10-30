@@ -33,10 +33,10 @@
 @use "teachings";
 @use "typograms";
 
-// Site override: UCLA blues for links and accents
+// Site override: link and accent colors
 :root {
-  --global-theme-color: #005587; // UCLA Darker Blue
-  --global-hover-color: #005587;
+  --global-theme-color: #3366cc; // Wikipedia link blue
+  --global-hover-color: #3366cc;
 }
 
 html[data-theme="dark"] {
