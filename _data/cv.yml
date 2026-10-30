@@ -1,0 +1,137 @@
+cv:
+  name: Kaiyuan Zhang
+  label: Ph.D. Student in Electrical and Computer Engineering
+  email: kaiyuanzhang@ucla.edu
+  phone: "+1 (310) 560-9988"
+  location: Los Angeles, CA, USA
+  image: ""
+  summary: Ph.D. student at UCLA working on speech tokenization, text-to-speech, post-training of Speech-LLMs and full-duplex speech models, and speech privacy.
+
+  social_networks:
+    - network: GitHub
+      username: epcm
+
+  sections:
+    Education:
+      - institution: University of California, Los Angeles
+        location: Los Angeles, CA, USA
+        url: https://www.ucla.edu/
+        area: Electrical and Computer Engineering
+        studyType: Ph.D.
+        start_date: 2026-03
+        end_date: present
+        score: "GPA 4.0/4.0"
+        highlights:
+          - "Advisors: Prof. Abeer Alwan and Prof. Yuan Tian"
+
+      - institution: University of California, Los Angeles
+        location: Los Angeles, CA, USA
+        url: https://www.ucla.edu/
+        area: Electrical and Computer Engineering
+        studyType: M.S.
+        start_date: 2024-09
+        end_date: 2026-03
+
+      - institution: Peking University
+        location: Beijing, China
+        url: https://www.pku.edu.cn/
+        area: Computer Science and Technology
+        studyType: B.S.
+        start_date: 2020-09
+        end_date: 2024-07
+        score: "GPA 3.75/4.0 (ranked 18/144)"
+        highlights:
+          - Outstanding Graduate, Peking University, 2024
+
+    Research Interests:
+      - name: Speech Tokenization
+        icon: fa-solid fa-wave-square
+        keywords: "Discrete speech representations, audio codecs, semantic–acoustic balance for unified speech understanding and generation"
+
+      - name: Text-to-Speech Models
+        icon: fa-solid fa-microphone-lines
+        keywords: "Generative speech modeling, TTS fine-tuning and evaluation"
+
+      - name: Post-Training of Speech-LLMs and Full-Duplex Speech Models
+        icon: fa-solid fa-brain
+        keywords: "Domain adaptation, parameter-efficient fine-tuning, mixture-of-experts routing, personalization"
+
+      - name: Speech Privacy
+        icon: fa-solid fa-shield-halved
+        keywords: "Membership inference, training-data leakage in speech generation models, trustworthy speech AI"
+
+    Experience:
+      - company: University of California, Los Angeles
+        position: Graduate Student Researcher
+        location: Los Angeles, CA, USA
+        start_date: 2024-10
+        end_date: present
+        summary: Advised by Prof. Abeer Alwan and Prof. Yuan Tian.
+        highlights:
+          - "**Speech tokenization and representation learning.** Developed STACodec, a discrete speech tokenizer that directly assigns SSL-derived semantic tokens to the first RVQ layer, jointly preserving acoustic fidelity and semantic information for unified speech understanding and generation, with a Semantic Pre-Distillation module to reduce inference cost (ICASSP 2026). Systematically evaluated supervised and unsupervised semantic tokenization for low-resource ASR (AI4CSL Workshop @ ASRU 2025, Best Paper Award)."
+          - "**Speech foundation model post-training.** Developed a domain-routed Mixture-of-Experts Speech-LLM for multi-domain ASR, reducing child-speech WER by up to 19% relative while preserving adult-speech accuracy (Interspeech 2026, Best Student Paper Nominee). Developed acoustics-aware LoRA adapters with local convolutional modeling (Interspeech 2026), an encoder-awakening strategy for domain adaptation of Speech-LLMs (SLT 2026), a self-supervised domain adaptation method with learnable Gumbel-Softmax layer selection (Interspeech 2026), and a two-stage fine-tuning approach for joint child–adult role diarization and ASR (under review, ICASSP 2027)."
+          - "**LLM applications.** Released CHSER, a 200K-pair dataset for training LLMs to correct child ASR errors, with consistent WER reductions across domains and architectures (Interspeech 2025). Built a pipeline combining ASR with an LLM-as-a-Judge for automated scoring and feedback in children's spoken language assessment (SLaTE 2025)."
+          - "**AI safety, security and privacy.** Proposed the first black-box membership inference attack on fine-tuned TTS models at both speaker and record levels, demonstrating training-data leakage across three widely used TTS models (under review, NDSS 2027). Mitigated hallucinations in speech foundation models via uncertainty-routed activation editing at inference time (SLT 2026)."
+
+    Honors:
+      - title: Best Student Paper Nominee
+        date: 2026
+        awarder: Interspeech 2026
+        summary: "Entropy-Aware Domain-Routed Mixture-of-Experts Speech-LLM Framework: A Case Study of Multi-Domain Child-Adult ASR."
+
+      - title: Selected Team (Top 10 Worldwide)
+        date: 2026
+        awarder: Amazon Nova AI Challenge 2026
+
+      - title: Best Paper Award
+        date: 2025
+        awarder: AI4CSL Workshop @ IEEE ASRU 2025
+        summary: "Comparing Unsupervised and Supervised Semantic Speech Tokens: A Case Study of Child ASR."
+
+      - title: Outstanding Graduate
+        date: 2024
+        awarder: Peking University
+
+    Skills:
+      - name: Languages
+        icon: fa-solid fa-code
+        keywords: "Python, C, C++, MATLAB, Bash, SQL"
+
+      - name: Speech & ASR Toolkits
+        icon: fa-solid fa-microphone
+        keywords: "ESPnet, SpeechBrain, fairseq, NeMo, Kaldi, k2, torchaudio, librosa"
+
+      - name: Deep Learning & ML
+        icon: fa-solid fa-network-wired
+        keywords: "PyTorch, HF Transformers, NumPy, pandas, SentencePiece"
+
+      - name: LLM & GenAI
+        icon: fa-solid fa-robot
+        keywords: "RAG, QLoRA, bitsandbytes, Ollama, LLM agent orchestration, agentic coding (Claude Code, Codex)"
+
+      - name: Infrastructure & Tools
+        icon: fa-solid fa-server
+        keywords: "Linux, Docker, Git, AWS, SLURM, distributed training (DDP, DeepSpeed, FSDP), Hydra, Weights & Biases"
+
+    Service:
+      - company: Transactions on Machine Learning Research (TMLR)
+        position: Reviewer
+        location: ""
+        start_date: 2025
+        end_date: present
+
+      - company: University of California, Los Angeles
+        position: Teaching Assistant
+        location: Los Angeles, CA, USA
+        start_date: 2024
+        end_date: present
+        highlights:
+          - Computer System Security
+          - Digital Speech Processing
+
+    Languages:
+      - name: Chinese (Mandarin)
+        summary: "Native speaker"
+
+      - name: English
+        summary: "Fluent"

@@ -1,0 +1,30 @@
+# Venue abbreviations used in `abbr` fields of _bibliography/papers.bib.
+# Each entry can have a `url` (makes the badge a link) and a `color`.
+
+"ICASSP":
+  url: https://signalprocessingsociety.org/
+  color: "#00629b"
+
+"Interspeech":
+  url: https://www.isca-speech.org/
+  color: "#b31b1b"
+
+"SLT":
+  url: https://signalprocessingsociety.org/
+  color: "#006d77"
+
+"ASRU":
+  url: https://signalprocessingsociety.org/
+  color: "#5c4d7d"
+
+"SLaTE":
+  url: https://www.isca-speech.org/
+  color: "#7a6c1e"
+
+"NDSS":
+  url: https://www.ndss-symposium.org/
+  color: "#2e6f40"
+
+"ICLR":
+  url: https://iclr.cc/
+  color: "#c0392b"
