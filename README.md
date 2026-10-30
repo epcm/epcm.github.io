@@ -10,7 +10,7 @@ Live site: <https://epcm.github.io>
 | ------------------------------ | --------------------------------------------------- |
 | Site title, URL, feature flags | `_config.yml`                                       |
 | Bio / home page                | `_pages/about.md`                                   |
-| Profile photo                  | `assets/img/prof_pic.jpg` (replace the placeholder) |
+| Profile photo                  | `assets/img/prof_pic.jpg` |
 | Publications                   | `_bibliography/papers.bib` (+ `_data/venues.yml`)   |
 | CV (web version)               | `_data/cv.yml`                                      |
 | CV (PDF download)              | `assets/pdf/Kaiyuan_Zhang_CV.pdf`                   |
