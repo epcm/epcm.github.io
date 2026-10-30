@@ -6,16 +6,16 @@ Live site: <https://epcm.github.io>
 
 ## What to edit
 
-| Content                        | File(s)                                             |
-| ------------------------------ | --------------------------------------------------- |
-| Site title, URL, feature flags | `_config.yml`                                       |
-| Bio / home page                | `_pages/about.md`                                   |
-| Profile photo                  | `assets/img/prof_pic.jpg` |
-| Publications                   | `_bibliography/papers.bib` (+ `_data/venues.yml`)   |
-| CV (web version)               | `_data/cv.yml`                                      |
-| CV (PDF download)              | `assets/pdf/Kaiyuan_Zhang_CV.pdf`                   |
-| News items                     | `_news/*.md`                                        |
-| Social links / email           | `_data/socials.yml`                                 |
+| Content                        | File(s)                                           |
+| ------------------------------ | ------------------------------------------------- |
+| Site title, URL, feature flags | `_config.yml`                                     |
+| Bio / home page                | `_pages/about.md`                                 |
+| Profile photo                  | `assets/img/prof_pic.jpg`                         |
+| Publications                   | `_bibliography/papers.bib` (+ `_data/venues.yml`) |
+| CV (web version)               | `_data/cv.yml`                                    |
+| CV (PDF download)              | `assets/pdf/Kaiyuan_Zhang_CV.pdf`                 |
+| News items                     | `_news/*.md`                                      |
+| Social links / email           | `_data/socials.yml`                               |
 
 ### Publications
 

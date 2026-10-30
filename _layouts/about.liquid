@@ -42,9 +42,15 @@ layout: default
               <div>{{ socials.email | replace: '@', ' [at] ' | replace: '.', ' [dot] ' }}</div>
             {% endif %}
             <div>
-              {% if socials.github_username %}<a href="https://github.com/{{ socials.github_username }}">GitHub</a>{% endif %}
-              {% if socials.scholar_userid %}| <a href="https://scholar.google.com/citations?user={{ socials.scholar_userid }}">Google Scholar</a>{% endif %}
-              {% if socials.linkedin_username %}| <a href="https://www.linkedin.com/in/{{ socials.linkedin_username }}">LinkedIn</a>{% endif %}
+              {% if socials.github_username -%}
+                <a href="https://github.com/{{ socials.github_username }}">GitHub</a>
+              {%- endif %}
+              {% if socials.scholar_userid -%}
+                | <a href="https://scholar.google.com/citations?user={{ socials.scholar_userid }}">Google Scholar</a>
+              {%- endif %}
+              {% if socials.linkedin_username -%}
+                | <a href="https://www.linkedin.com/in/{{ socials.linkedin_username }}">LinkedIn</a>
+              {%- endif %}
             </div>
           </div>
         {% endif %}
@@ -76,7 +82,6 @@ layout: default
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
-
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% if site.plugins contains 'al_newsletter' %}
